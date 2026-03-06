@@ -1,0 +1,78 @@
+body{
+  font-family: Arial, sans-serif;
+  background:#f4f6f8;
+}
+
+.container{
+  max-width:400px;
+  margin:40px auto;
+  background:white;
+  padding:25px;
+  border-radius:10px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+  text-align:center;
+}
+
+h1{
+  margin-bottom:20px;
+}
+
+.balance{
+  font-size:20px;
+  font-weight:bold;
+  margin-bottom:20px;
+}
+
+.form input{
+  width:90%;
+  padding:10px;
+  margin:5px 0;
+  border:1px solid #ccc;
+  border-radius:5px;
+}
+
+.form button{
+  width:95%;
+  padding:10px;
+  background:#4CAF50;
+  color:white;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+  margin-top:10px;
+}
+
+.form button:hover{
+  background:#45a049;
+}
+
+.filter{
+  margin:15px 0;
+}
+
+.filter select{
+  padding:8px;
+}
+
+.list{
+  list-style:none;
+  padding:0;
+}
+
+.list li{
+  display:flex;
+  justify-content:space-between;
+  padding:10px;
+  margin:5px 0;
+  border-radius:5px;
+}
+
+.income{
+  background:#e6ffe6;
+  color:green;
+}
+
+.expense{
+  background:#ffe6e6;
+  color:red;
+}
